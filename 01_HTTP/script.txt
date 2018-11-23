@@ -1,0 +1,19 @@
+HTTP
+
+HyperText Transfer Protocol
+
+Méthodes HTTP:
+
+GET : Permet de demander une ressource via l'URL
+
+HEAD : Permet de demander des informations sur la ressource
+
+POST : Permet d'ebvoyer des informations au serveur
+
+OPTIONS : Liste les options disponibles du serveur
+
+PUT: Permet de remplacer ou d'ajouter une ressource sur le serveur
+
+PATCH: Modification partielle de la ressource
+
+DELETE: Permet de supprimer une ressource du serveur

@@ -1,0 +1,122 @@
+body {
+    background-color: cornflowerblue;
+}
+
+form {
+    width: 280px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+label , input {
+    font-family: Arial;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    color: white;
+}
+
+#boutonSubmit {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px grey;
+}
+
+h1 , h2 , h3 , h4 , h5 , p {
+    text-align: center;
+    font-family: 'Carter One', cursive;
+}
+
+h1 , h2 {
+    color: white;
+}
+
+h5 {
+    color: cornflowerblue;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 5px;
+}
+
+.titrePrédictions {
+    display: block;
+    width: 100%;
+}
+
+section {
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+section > div {
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.icon {
+    width: 100px;
+    margin-bottom: 30px;
+    border-radius: 25%;
+}
+
+#predictions {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#predictions > div {
+    width: 200px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+#predictions > div > h5 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+#predictions > div > img {
+    width: 75%;
+}
+
+
+
+
